@@ -1,0 +1,671 @@
+/* Grid System */
+ .grid-1{grid-template-columns: repeat(1, 1fr);} .grid-2{grid-template-columns: repeat(2, 1fr);} .grid-3{grid-template-columns: repeat(3, 1fr);} .grid-4{grid-template-columns: repeat(4, 1fr);} .grid-5{grid-template-columns: repeat(5, 1fr);} .grid-6{grid-template-columns: repeat(6, 1fr);} .grid-7{grid-template-columns: repeat(7, 1fr);} .grid-8{grid-template-columns: repeat(8, 1fr);} .grid-9{grid-template-columns: repeat(9, 1fr);} .grid-10{grid-template-columns: repeat(10, 1fr);}
+  
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10{display: grid; justify-items: center; align-items: center; grid-gap: 10px; padding: 1.5%; height: auto; min-height: 5%; overflow-x: hidden;}
+  
+  .grid-items{background-color: white; color: black; border: 2px solid black; border-radius: 3px; width: 100%; padding: 2%; height: auto; min-height: 5%; overflow-x: hidden; box-sizing: border-box;}
+
+
+ /* media queries for grid system*/
+ /* Small screens */
+  
+  @media(max-width: 768px){ .grid-sm-1{
+  display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-2{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-3{
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-4{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-5{
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-6{
+  display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-7{
+  display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-8{
+  display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-9{
+  display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(max-width: 768px){ .grid-sm-10{
+  display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  
+  /* Grid System for medium size screens*/
+  
+  @media(min-width: 769px){ .grid-md-1{
+  display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 769px){ .grid-md-2{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 769px){ .grid-md-3{
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 769px){ .grid-md-4{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 769px){ .grid-md-5{
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+    
+  @media(min-width: 769px){ .grid-md-6{
+  display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 769px){ .grid-md-7{
+  display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 769px){ .grid-md-8{
+  display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 769px){ .grid-md-9{
+  display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 769px){ .grid-md-10{
+  display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  
+  /* Media Queries For Grid System on Large Screens*/
+ @media(min-width: 1200px){ .grid-lg-1{
+  display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-2{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 1200px){ .grid-lg-13{
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-4{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-5{
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-6{
+  display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 1200px){ .grid-lg-7{
+  display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 1200px){ .grid-lg-8{
+  display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-9{
+  display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1200px){ .grid-lg-10{
+  display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ /* Grid System for Extra Large Screens*/  
+ @media(min-width: 1920px){ .grid-xl-1{
+  display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  
+  @media(min-width: 1920px){ .grid-xl-2{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+    @media(min-width: 1920px){ .grid-xl-3{
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+   @media(min-width: 1920px){ .grid-xl-4{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+    @media(min-width: 1920px){ .grid-xl-5{
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 1920px){ .grid-xl-6{
+  display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+   @media(min-width: 1920px){ .grid-xl-7{
+  display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+   @media(min-width: 1920px){ .grid-xl-8{
+  display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+   @media(min-width: 1920px){ .grid-xl-9{
+  display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+   @media(min-width: 1920px){ .grid-xl-10{
+  display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+         /* Grid System on XXL screens*/ 
+         @media(min-width: 2400px){ .grid-xxl-1{
+  display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+    @media(min-width: 2400px){ .grid-xxl-2{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 2400px){ .grid-xxl-3{
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 2400px){ .grid-xxl-4{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+@media(min-width: 2400px){ .grid-xxl-5{
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 2400px){ .grid-xxl-6{
+  display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+@media(min-width: 2400px){ .grid-xxl-7{
+  display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 2400px){ .grid-xxl-8{
+  display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+  @media(min-width: 2400px){ .grid-xxl-9{
+  display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+ @media(min-width: 2400px){ .grid-xxl-10{
+  display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      justify-items: center;
+      align-items:center;
+      height: auto;
+      padding: 1.5%;
+      min-height: 5%;
+      grid-gap: 10px;
+      overflow-x: hidden;
+  }     
+  }
+  
+      
