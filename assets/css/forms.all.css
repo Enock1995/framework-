@@ -1,0 +1,18 @@
+
+.form-container{width: 100%;border: 1px solid navy;background-color: silver;
+} .form{width: 96%;margin-left: 0.4rem;}.form-label{display: block;font-weight: bold;margin-bottom: 0.4rem;}.form-field{width: 95%;min-height: 30px;border: 1px solid black;border-radius: 4px;margin-bottom: 0.6rem;background-color: white;font-size: 1rem;color: black;}
+
+
+/* Button */
+.btn{border-radius: 3px;border: 1px solid black;font-weight: 400;font-size: 1.2rem;display: inline-block;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;
+min-height: 2.5rem; min-width: 5.5rem; margin-bottom: 0.6rem;} .btn-cancel{background: red;}.btn-confirm{background: green;}.btn-blue{background: blue;}.btn-black{background: black;color:white;}.btn-silver{background: silver;}
+
+
+/* CheckBox */
+.check{height: 2rem;width: 2rem;}
+
+
+/* Text Area */
+.textarea{width: 100%; min-height: 10rem; border: 1px solid black; border-radius: 5px;}
+
+/* Space div */
